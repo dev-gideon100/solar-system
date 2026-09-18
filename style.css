@@ -1,0 +1,95 @@
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-image: url(images/background\ image.png);
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    color: wheat;
+    font-size: 20px;
+    text-align: center;
+}
+
+.head{
+    color: red;
+    padding-top: 20px;
+}
+
+.sun {
+    /* border: 2px solid green; */
+    width: 210px;
+    position: relative;
+    left: 800px;
+    top: 330px;
+    
+}
+
+.mercury {
+    /* border: 2px solid  red; */
+    position: absolute;
+    width: 50px;
+    top: 100px;
+    left: -300px;
+}
+
+.venus{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 140px;
+    top: -150px ;
+     left: -170px;
+}
+
+.earth{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 100px;
+    top: -150px;
+    right: -170px;
+}
+
+.mars{
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 70px;
+    right: -300px;
+    top: 60px;
+}
+
+.jupiter{
+    position: absolute;
+    width: 230px;
+    right: -600px;
+    top: 220px;
+}
+
+.saturn{
+    position: absolute;
+    width: 200px;
+    right: -200px;
+top: 280px;
+}
+
+.uranus{
+    position: absolute;
+    width: 300px;
+    left: -200px;
+    top: 330px;
+}
+
+.neptune{
+    position: absolute;
+    width: 250px;
+    left: -520px;
+    top: 300px;
+}
+

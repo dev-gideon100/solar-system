@@ -1,7 +1,7 @@
 * {
-     margin: 0;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 
 
 }
@@ -17,12 +17,20 @@ body {
     color: wheat;
     font-size: 20px;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.head{
+.head {
     color: red;
     padding-top: 20px;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #a78bfa;
 }
 
 .sun {
@@ -31,7 +39,11 @@ body {
     position: relative;
     left: 800px;
     top: 330px;
-    
+    cursor: pointer;
+}
+
+.sun p:hover {
+    color: red;
 }
 
 .mercury {
@@ -42,15 +54,23 @@ body {
     left: -300px;
 }
 
-.venus{
+.mercury p:hover {
+    color: #00e5ff;
+}
+
+.venus {
     /* border: 2px solid red; */
     position: absolute;
     width: 140px;
-    top: -150px ;
-     left: -170px;
+    top: -150px;
+    left: -170px;
 }
 
-.earth{
+.venus p:hover {
+    color: #00e5ff;
+}
+
+.earth {
     /* border: 2px solid red; */
     position: absolute;
     width: 100px;
@@ -58,7 +78,11 @@ body {
     right: -170px;
 }
 
-.mars{
+.earth p:hover {
+    color: #00e5ff;
+}
+
+.mars {
     /* border: 2px solid red; */
     position: absolute;
     width: 70px;
@@ -66,31 +90,50 @@ body {
     top: 60px;
 }
 
-.jupiter{
+.mars p:hover {
+    color: #00e5ff;
+}
+
+.jupiter {
     position: absolute;
     width: 230px;
     right: -600px;
     top: 220px;
 }
 
-.saturn{
+.jupiter p:hover {
+    color: #00e5ff;
+}
+
+.saturn {
     position: absolute;
     width: 200px;
     right: -200px;
-top: 280px;
+    top: 280px;
 }
 
-.uranus{
+.saturn p:hover {
+    color: #00e5ff;
+}
+
+.uranus {
     position: absolute;
     width: 300px;
     left: -200px;
     top: 330px;
 }
 
-.neptune{
+.uranus p:hover {
+    color: #00e5ff;
+}
+
+.neptune {
     position: absolute;
     width: 250px;
     left: -520px;
     top: 300px;
 }
 
+.neptune p:hover {
+    color: #00e5ff;
+}

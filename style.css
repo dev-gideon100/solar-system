@@ -11,12 +11,13 @@ img {
 }
 
 body {
-    background-image: url(images/background\ image.png);
+    background-image: url(images/background\ image\ 2.png);
     background-size: cover;
     font-family: "Oswald", sans-serif;
     color: wheat;
     font-size: 20px;
     text-align: center;
+    overflow: hidden;
 }
 
 .head{
